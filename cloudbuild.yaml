@@ -98,5 +98,5 @@ steps:
   args: 
   - '-c'
   - | 
-      terraform destroy
+      terraform destroy -auto-approve
 # [END tf-destroy]
