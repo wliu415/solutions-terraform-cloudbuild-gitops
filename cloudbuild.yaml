@@ -99,3 +99,4 @@ steps:
   - '-c'
   - | 
       terraform destroy
+# [END tf-destroy]
