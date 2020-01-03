@@ -90,3 +90,12 @@ steps:
         echo "*******************************************************************************"
       fi
 # [END tf-apply]      
+
+# [START tf-destroy]
+- id: 'tf destroy'
+  name: 'hashicorp/terraform:0.11.14'
+  entrypoint: 'sh'
+  args: 
+  - '-c'
+  - | 
+      terraform destroy
